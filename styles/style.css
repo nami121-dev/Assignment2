@@ -125,8 +125,39 @@ align-items: center;
   .navbar{
     border:1px solid orange;
     padding: 10px;
+   
   }
   *{
     margin: 0px;
   }
+  .banner{
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .banner-title{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner-description{
+    text-align: center;
+  }
+  .banner-content{
+    width: 100%;
+    margin: 10px;
+    
+  }
+  .btn1{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   margin: 0 80px;
+   
+  }
+  
+
+  
+  
 }
