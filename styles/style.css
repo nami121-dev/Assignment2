@@ -71,3 +71,26 @@
   font-weight: 600;
   color: rgba(93, 88, 239, 1);
 }
+hr{
+  display: none;
+}
+.hamburger{
+ visibility: hidden;
+ /* cursor: pointer; */
+}
+@media screen and (max-width:576px){
+  
+  .logo-name,.column-2,.btn-primary{
+    display: none;
+  }
+  .fa-bars{
+    visibility: visible;
+  }
+  header{
+    border:1px solid orange;
+    padding: 10px;
+  }
+  *{
+    margin: 0px;
+  }
+}
