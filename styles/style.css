@@ -114,6 +114,22 @@ align-items: center;
 #vision{
   color: skyblue;
 }
+/* main related styles */
+.section-title{
+  font-weight: bold;
+  font-size: 2.875rem;
+  max-width: 500px;
+  margin: 80px auto;
+}
+
+main{
+  background-image: url('/assets/bg.png');
+}
+
+/* card related styles */
+.card1,.card2,.card3{
+  width: 365px;
+}
 @media screen and (max-width:576px){
   
   .logo-name,.column-2,.btn-primary{
