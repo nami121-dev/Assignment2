@@ -10,11 +10,17 @@
 /* shared styles */
 .display-flex{
   display: flex;
+}
+  /* dark03 */
+  .light-gray{
+    color: rgba(128, 128, 128, 1);
+  }
 
+  
 
 
 /* navbar related styles */
-}
+
 .navbar{
   justify-content: space-between;
   max-width: 1440px;
@@ -127,8 +133,63 @@ main{
 }
 
 /* card related styles */
+.card-box{
+  max-width: 1140px;
+  margin: 100px auto;
+}
 .card1,.card2,.card3{
   width: 365px;
+  box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  margin-right: 30px;
+  padding: 30px;
+  border-radius: 18px;
+  
+  
+}
+.card1{
+  background-image:linear-gradient(#DEF5FF,rgba(255, 255, 255, 0),rgba(255, 255, 255, 1));
+}
+.card2{
+  background-image: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 0),rgba(255, 255, 255, 1));
+
+}
+.card3{
+  background-image: linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 0),rgba(255, 255, 255, 1));
+}
+
+
+
+
+
+.card1-title,
+.card2-title,
+.card3-title{
+  text-align: center;
+
+}
+
+
+.card1-description,
+.card2-description,
+.card3-description{
+  font-weight: 600;
+  font-size: 0.943rem;
+  text-align: center;
+}
+
+.card1-extension{
+  text-align: center;
+  color: rgba(100, 200, 255, 1);
+}
+
+.card2-extension{
+  text-align: center;
+  color: rgba(240, 170, 0, 1);
+}
+.card3-extension{
+  text-align: center;
+  color: rgba(135, 0, 255, 1);
+
 }
 @media screen and (max-width:576px){
   
