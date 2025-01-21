@@ -78,6 +78,42 @@ hr{
  visibility: hidden;
  /* cursor: pointer; */
 }
+/* banner related styles */
+.banner{
+justify-content: center;
+align-items: center;
+}
+.banner img{
+  width:25%;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.banner-content{
+  width: 640px;
+  margin-right: 60px;
+  
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+}
+.btn1{
+  background-color: black;
+  border-radius: 12px;
+ padding: 15px 48px;
+ color: white;
+ font-weight: 700;
+ font-size: 1.25rem;
+}
+#empower{
+  color: #FEA301;
+}
+#vision{
+  color: skyblue;
+}
 @media screen and (max-width:576px){
   
   .logo-name,.column-2,.btn-primary{
@@ -86,7 +122,7 @@ hr{
   .fa-bars{
     visibility: visible;
   }
-  header{
+  .navbar{
     border:1px solid orange;
     padding: 10px;
   }
