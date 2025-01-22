@@ -444,10 +444,10 @@ main {
 footer{
   background-color: rgba(1, 172, 253, 1);
 }
-footer .logo{
-  filter:brightness(white);
-}
+
+
 .logo{
+  filter: grayscale(80%);
   width: 80px;
   height: 80px;
 }
