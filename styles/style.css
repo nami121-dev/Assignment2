@@ -133,6 +133,13 @@ main{
 }
 
 /* card related styles */
+.card-section img{
+ margin: 40px 100px;
+}
+
+
+
+
 .card-box{
   max-width: 1140px;
   margin: 100px auto;
@@ -211,6 +218,16 @@ main{
   align-items: center;
 }
 
+/* story related styles */
+.story-section-title{
+  font-weight: bold;
+  font-size: 2.87rem;
+  margin: 20px auto;
+  max-width: 250px;
+}
+.story-section{
+  background-image: linear-gradient(0deg,rgba(255, 218, 152, 1),rgba(255, 255, 255, 0),rgba(255, 255, 255, 1));
+}
 
 
 
